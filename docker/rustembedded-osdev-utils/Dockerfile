@@ -65,7 +65,7 @@ RUN set -ex;                                      \
     # GDB
     wget -P ~ git.io/.gdbinit; \
     # GCC AArch64 tools
-    wget https://developer.arm.com/-/media/Files/downloads/gnu-a/10.2-2020.11/binrel/gcc-arm-10.2-2020.11-x86_64-aarch64-none-elf.tar.xz; \
+    wget https://developer.arm.com/-/media/Files/downloads/gnu-a/10.3-2021.07/binrel/gcc-arm-10.3-2021.07-aarch64-aarch64-none-elf.tar.xz; \
     tar -xf gcc-arm-10*;                                                                                                                  \
     cp                                                                                                                                    \
         gcc-arm-10*/bin/aarch64-none-elf-objdump                                                                                          \
